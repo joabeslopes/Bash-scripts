@@ -1,5 +1,8 @@
 #!/bin/bash
-# Backup for each folder
+
+# Backup compressed and encrypted things to Amazon S3 compatible storage, like Idrive E2. 
+# If you use Amazon S3, i recommend to use glacier for this purpose.
+
 folder=/path
 bucket=boto3+s3:///bucket-name
 region=us-ch # Chicago example
