@@ -3,6 +3,8 @@
 # If you use qemu/kvm virtual machines, with programs like virt-manager, this script will help you to backup all of your vms to a file server using rsync.
 # It creates a folder for each vm, and place there the disk file and the xml of the vm.
 
+# You need to have access permission with a ssh key, and read/write permissions.
+
 # Note that this is a simple script, so it works well if your vm have only one disk.
 # If you need more than one disk, i recommend to put then into a separate folder.
 
