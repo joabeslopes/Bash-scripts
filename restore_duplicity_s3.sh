@@ -1,5 +1,7 @@
 #!/bin/bash
-# Backup for each folder
+
+# Restore the things that were sent with the backup script.
+
 folder=/path
 bucket=boto3+s3:///bucket-name
 region=us-ch # Chicago example
