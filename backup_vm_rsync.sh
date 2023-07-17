@@ -5,7 +5,7 @@
 
 # You need to have access permission with a ssh key, and read/write permissions.
 
-# Note that this is a simple script, so it works well if your vm have only one disk.
+# Note that this is a simple script, so it works well if your vm have only one disk, and the disk name is the same as the VM name.
 # If you need more than one disk, i recommend to put then into a separate folder.
 
 ipBakupServer=0.0.0.0
