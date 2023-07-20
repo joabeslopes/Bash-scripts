@@ -6,7 +6,7 @@ ipBakupServer=0.0.0.0
 portBakupServer=22
 userBakupServer=user
 folderBakupServer=/backup/folder
-VmFolder=/var/lib/libvirt/images #Default Libvirt folder
+vmFolder=/var/lib/libvirt/images #Default Libvirt folder
 
 rsync -ave "ssh -p $portBakupServer" --mkpath --sparse $userBakupServer@$ipBakupServer:$folderBakupServer/* $vmFolder/restore
 
