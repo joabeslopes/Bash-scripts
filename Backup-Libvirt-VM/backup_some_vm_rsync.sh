@@ -13,9 +13,9 @@ ipBakupServer=0.0.0.0
 portBakupServer=22
 userBakupServer=user
 folderBakupServer=/backup/folder
-VmFolder=/var/lib/libvirt/images #Default Libvirt folder
+vmFolder=/var/lib/libvirt/images #Default Libvirt folder
 
-cd $VmFolder
+cd $vmFolder
 
 for vm in "$@"  # pick all passed arguments
 do
